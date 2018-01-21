@@ -1,0 +1,10 @@
+html, head, body, div, p {
+	margin:0;
+	padding:0;
+}
+header, section, footer, nav {
+	display:block;
+}
+a, a:hover {
+	text-decoration:none;
+}
