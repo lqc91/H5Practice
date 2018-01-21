@@ -13,6 +13,7 @@
 	line-height:40px;
 	padding:10px;
 	box-sizing:border-box;
+	z-index:999;
 }
 .nav-hd .nav-fl {
 	float:left;
@@ -56,11 +57,40 @@
 }
 /* screen 1 */
 .screen-1 {
+	position:relative;
 	background-image:url("../img/sc1.jpg");
+}
+.screen-1 .practice {
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%, -50%);
+	text-align:center;
+	color:#fff;
+}
+.screen-1 .practice h1 {
+	margin-bottom:32px;
 }
 /* screen 2 */
 .screen-2 {
-	background:url("../img/sc2.png") center bottom no-repeat;
+	background:url("../img/sc2-1.png") center bottom no-repeat, url("../img/sc2-2.png") 60% 77% no-repeat, url("../img/sc2.png") center bottom no-repeat, #f3f5f7;
+}
+.screen-2 .case {
+	padding:52px 0 26px 0;
+	text-align:center;
+}
+.screen-2 .case h1 {
+	padding:36px 0;
+}
+.screen-2 .case .redline {
+	display:inline-block;
+	width:50px;
+	height:3px;
+	margin-bottom:20px;
+	background-color:#f00;
+}
+.screen-2 .case p {
+	padding:3px 0;
 }
 /* screen 3 */
 .screen-3 {
