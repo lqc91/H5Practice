@@ -196,6 +196,23 @@
 	margin:30px auto;
 	background-color:#fff;
 }
+/* other */
+.other {
+	/*height:200px;*/
+	background-color:#fff;
+}
+.other .continue {
+	display:block;
+	width:238px;
+	height:58px;
+	margin:70px auto;
+	font-size:18px;
+	color:#000;
+	text-align:center;
+	line-height:58px;
+	border:1px solid #707070;
+	border-radius:2px;
+}
 
 /* footer */
 .footer {
