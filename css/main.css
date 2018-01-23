@@ -95,9 +95,6 @@
 	margin-bottom:20px;
 	background-color:#f00;
 }
-.screen-2 .case p {
-	padding:3px 0;
-}
 /* screen 3 */
 .screen-3 {
 	background-color:#2b333b;
@@ -118,9 +115,6 @@
 .screen-3 .course .separator {
 	margin:32px 0 23px;
 	background-color:#f00;
-}
-.screen-3 .course .desc{
-	padding:3px 0;
 }
 .screen-3 .langs .lang {
 	display:inline-block;
@@ -158,6 +152,35 @@
 .screen-4 {
 	background-color:#f3f5f7;
 }
+.screen-4 .environ {
+	text-align:center;
+}
+.screen-4 .environ .title {
+	padding:88px 0 36px;
+}
+.screen-4 .environ .separator {
+	background-color:#f00;
+	margin-bottom:20px;
+}
+.screen-4 .environ .intro {
+	display:inline-block;
+	width:200px;
+	vertical-align:middle;
+	padding:100px 0 0;
+	margin:77px auto 232px;
+}
+.screen-4 .environ .intro-1 {
+	background:url("../img/sc4-1.png") top center no-repeat;
+}
+.screen-4 .environ .intro-2 {
+	background:url("../img/sc4-2.png") top center no-repeat;
+}
+.screen-4 .environ .intro-3 {
+	background:url("../img/sc4-3.png") top center no-repeat;
+}
+.screen-4 .environ .intro-4 {
+	background:url("../img/sc4-4.png") top center no-repeat;
+}
 /* screen 5 */
 .screen-5 {
 	background-image:url("../img/sc5.jpg");
@@ -181,11 +204,11 @@
 	color:#ccc;
 	padding:6px 18px;
 }
+.nav-ft a:hover {
+	color:#f00;
+}
 .nav-ft .cprt {
 	font-size:16px;
 	line-height:18px;
 	color:#888;
-}
-.nav-ft .cprt:hover {
-	color:#f00;
 }
