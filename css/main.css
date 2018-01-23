@@ -170,20 +170,31 @@
 	margin:77px auto 232px;
 }
 .screen-4 .environ .intro-1 {
-	background:url("../img/sc4-1.png") top center no-repeat;
+	background:url("../img/sc4-1.png") center top no-repeat;
 }
 .screen-4 .environ .intro-2 {
-	background:url("../img/sc4-2.png") top center no-repeat;
+	background:url("../img/sc4-2.png") center top no-repeat;
 }
 .screen-4 .environ .intro-3 {
-	background:url("../img/sc4-3.png") top center no-repeat;
+	background:url("../img/sc4-3.png") center top no-repeat;
 }
 .screen-4 .environ .intro-4 {
-	background:url("../img/sc4-4.png") top center no-repeat;
+	background:url("../img/sc4-4.png") center top no-repeat;
 }
 /* screen 5 */
 .screen-5 {
 	background-image:url("../img/sc5.jpg");
+}
+.screen-5 .cloud {
+	font-size:0;
+	color:#fff;
+	text-align:center;
+	padding:360px 0 160px;
+	background:url("../img/sc5-1.png") center 100px no-repeat;
+}
+.screen-5 .cloud .separator {
+	margin:30px auto;
+	background-color:#fff;
 }
 
 /* footer */
