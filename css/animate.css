@@ -1,0 +1,33 @@
+/* 第一屏大标题先出现 */
+.screen-1 .practice .title {-webkit-animation: show 1s linear 1s forwards;-moz-animation: show 1s linear 1s forwards;-o-animation: show 1s linear 1s forwards;animation: show 1s linear 1s forwards;}
+/* 第一屏小标题后出现 */
+.screen-1 .practice .desc {-webkit-animation: show 1s linear 2s forwards;-moz-animation: show 1s linear 2s forwards;-o-animation: show 1s linear 2s forwards;animation: show 1s linear 2s forwards;}
+/* 第三屏左侧原子弹图片快速出现 */
+.screen-3 .bg-img {-webkit-animation: show 1s linear .5s forwards;-moz-animation: show 1s linear .5s forwards;-o-animation: show 1s linear .5s forwards;animation: show 1s linear .5s forwards;}
+/* 第三屏右侧的大、小标题以及标题分割线同时缓缓进入 */
+.screen-3 .course {-webkit-animation: enter 5s linear forwards, show 5s ease-in forwards;-moz-animation: enter 5s linear forwards, show 5s ease-in forwards;-o-animation: enter 5s linear forwards, show 5s ease-in forwards;animation: enter 5s linear forwards, show 5s ease-in forwards;}
+/* 第三屏5个课程呼吸灯效果 */
+.screen-3 .langs {-webkit-animation: breath 5s ease-in-out 6s infinite;-moz-animation: breath 5s ease-in-out 6s infinite;-o-animation: breath 5s ease-in-out 6s infinite;animation: breath 5s ease-in-out 6s infinite;}
+/* 第四屏大标题与4个模块先出现 */
+.screen-4 .environ .title, .screen-4 .environ .intro {-webkit-animation: show 3s linear .5s forwards;-moz-animation: show 3s linear .5s forwards;-o-animation: show 3s linear .5s forwards;animation: show 3s linear .5s forwards;}
+/* 第四屏小标题与标题分割线后出现 */
+.screen-4 .environ .separator, .screen-4 .environ .desc {-webkit-animation: show 3s linear 1.5s forwards;-moz-animation: show 3s linear 1.5s forwards;-o-animation: show 3s linear 1.5s forwards;animation: show 3s linear 1.5s forwards;}
+/* 第五屏人物头部图片快速出现 */
+.screen-5 .bg-img {-webkit-animation: show 1s linear .5s forwards;-moz-animation: show 1s linear .5s forwards;-o-animation: show 1s linear .5s forwards;animation: show 1s linear .5s forwards;}
+/* 第五屏大标题先出现 */
+.screen-5 .cloud .title {-webkit-animation: show 1s linear 1.5s forwards;-moz-animation: show 1s linear 1.5s forwards;-o-animation: show 1s linear 1.5s forwards;animation: show 1s linear 1.5s forwards;}
+/* 第五屏小标题与标题分割线随后出现 */
+.screen-5 .cloud .separator, .screen-5 .cloud .desc {-webkit-animation: show 1s linear 2.5s forwards;-moz-animation: show 1s linear 2.5s forwards;-o-animation: show 1s linear 2.5s forwards;animation: show 1s linear 2.5s forwards;}
+@-webkit-keyframes show {from {opacity: 0;}to {opacity: 1;}}
+@-moz-keyframes show {from {opacity: 0;}to {opacity: 1;}}
+@-o-keyframes show {from {opacity: 0;}to {opacity: 1;}}
+@keyframes show {from {opacity: 0;}to {opacity: 1;}}
+/* 呼吸灯关键帧 */
+@-webkit-keyframes breath {from {opacity: 0;}50% {opacity: 1;}to {opacity: 0;}}
+@-moz-keyframes breath {from {opacity: 0;}50% {opacity: 1;}to {opacity: 0;}}
+@-o-keyframes breath {from {opacity: 0;}50% {opacity: 1;}to {opacity: 0;}}
+@keyframes breath {from {opacity: 0;}50% {opacity: 1;}to {opacity: 0;}}
+@-webkit-keyframes enter {from {left: 100%;}to {left: 53%;}}
+@-moz-keyframes enter {from {left: 100%;}to {left: 53%;}}
+@-o-keyframes enter {from {left: 100%;}to {left: 53%;}}
+@keyframes enter {from {left: 100%;}to {left: 53%;}}
