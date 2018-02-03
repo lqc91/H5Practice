@@ -8,114 +8,116 @@
 <link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
-<header>
+<!-- header -->
+<header class="header">
+	<!-- header logo -->
+	<div class="header__logo">
+		<a href="" class="header__logo-link">H5实战页面</a>
+	</div>
+	<!-- /header logo -->
 	<!-- header navigation -->
-	<nav class="nav nav-hd">
-		<div class="nav-fl">
-			<a class="logo" href="">H5实战页面</a>
-		</div>
-		<div class="nav-fr">
-			<a href="#screen-1">实战课程</a>
-			<a href="#screen-2">商业案例</a>
-			<a href="#screen-3">课程体系</a>
-			<a href="#screen-4">集成环境</a>
-			<a href="#screen-5">云端学习</a>
-			<a class="instant" href="">即刻学习</a>
-			<i class="underline"></i>
-		</div>
+	<nav class="header__nav">
+		<a href="#screen-1" class="header__nav__item">实战课程</a>
+		<a href="#screen-2" class="header__nav__item">商业案例</a>
+		<a href="#screen-3" class="header__nav__item">课程体系</a>
+		<a href="#screen-4" class="header__nav__item">集成环境</a>
+		<a href="#screen-5" class="header__nav__item">云端学习</a>
+		<a href="" class="header__nav__item header__nav-item_custom_button">即刻学习</a>
+		<div class="header__nav__tip"></div>
 	</nav>
 	<!-- /header navigation -->
 </header>
+<!-- /header -->
 <!-- screen 1 -->
-<section id="screen-1" class="screen screen-1">
-	<hgroup class="practice">
-		<h1 class="title">实战课程重磅上线</h1>
-		<p class="desc">一键云学习，还在等待什么？</p>
-	</hgroup>
+<section id="screen-1" class="screen-1">
+	<div class="screen-1__wrap">
+		<h1 class="screen-1__heading">实战课程重磅上线</h1>
+		<h3 class="screen-1__subheading">一键云学习，还在等待什么？</h3>
+	</div>
 </section>
 <!-- /screen 1 -->
 <!-- screen 2 -->
-<section id="screen-2" class="screen screen-2">
-	<hgroup class="bg-img"></hgroup>
-	<hgroup class="bg-img-2"></hgroup>
-	<hgroup class="bg-img-1"></hgroup>
-	<hgroup class="case">
-		<h1 class="title">每门课都是真实商业案例</h1>
-		<div class="separator"></div>
-		<p class="desc">真实案例，真实场景，在实战中实践、操作、调试</p>
-		<p class="desc">大牛带你体验BAT真实开发流程，所有开发过程一一为你呈现</p>
-	</hgroup>
+<section id="screen-2" class="screen-2">
+	<div class="screen-2__wrap">
+		<h1 class="screen-2__heading">每门课都是真实商业案例</h1>
+		<div class="screen-2__separator"></div>
+		<h3 class="screen-2__subheading">真实案例，真实场景，在实战中实践、操作、调试</h3>
+		<h3 class="screen-2__subheading">大牛带你体验BAT真实开发流程，所有开发过程一一为你呈现</h3>
+	</div>
+	<div class="screen-2__background"></div>
+	<div class="screen-2__background-2"></div>
+	<div class="screen-2__background-1"></div>
 </section>
 <!-- /screen 2 -->
 <!-- screen 3 -->
-<section id="screen-3" class="screen screen-3">
-	<hgroup class="bg-img"></hgroup>
-	<hgroup class="course">
-		<h2 class="title">强大的语言课程体系支持</h2>
-		<div class="separator"></div>
-		<p class="desc">学习环境与课程轻松对接，安装、调试、写入、部署、运行，一站式解决 ,让你体验开发全流程</p>
-	</hgroup>
-	<hgroup class="langs">
-		<span class="lang html5">HTML5</span>
-		<span class="lang php">PHP</span>
-		<span class="lang java">JAVA</span>
-		<span class="lang python">Python</span>
-		<span class="lang node">Node.js</span>
-	</hgroup>
+<section id="screen-3" class="screen-3">
+	<div class="screen-3__background"></div>
+	<div class="screen-3__wrap-1">
+		<h2 class="screen-3__heading">强大的语言课程体系支持</h2>
+		<div class="screen-3__separator"></div>
+		<h3 class="screen-3__subheading">学习环境与课程轻松对接，安装、调试、写入、部署、运行，一站式解决 ,让你体验开发全流程</h3>
+	</div>
+	<div class="screen-3__wrap-2">
+		<span class="screen-3__wrap-2__item screen-3__wrap-2__item-1">HTML5</span>
+		<span class="screen-3__wrap-2__item screen-3__wrap-2__item-2">PHP</span>
+		<span class="screen-3__wrap-2__item screen-3__wrap-2__item-3">JAVA</span>
+		<span class="screen-3__wrap-2__item screen-3__wrap-2__item-4">Python</span>
+		<span class="screen-3__wrap-2__item screen-3__wrap-2__item-5">Node.js</span>
+	</div>
 </section>
 <!-- /screen 3 -->
 <!-- screen 4 -->
-<section id="screen-4" class="screen screen-4">
-	<hgroup class="environ">
-		<h1 class="title">省去本地复杂的环境搭建</h1>
-		<div class="separator"></div>
-		<p class="desc">你可以告别在虚拟机中调试开发了</p>
+<section id="screen-4" class="screen-4">
+	<div class="screen-4__wrap">
+		<h1 class="screen-4__heading">省去本地复杂的环境搭建</h1>
+		<div class="screen-4__separator"></div>
+		<h3 class="screen-4__subheading">你可以告别在虚拟机中调试开发了</h3>
 		<div>
-			<p class="intro intro-1">实战课程集成开发环境</p>
-			<p class="intro intro-2">内置终端命令行</p>
-			<p class="intro intro-3">编译你的应用程序</p>
-			<p class="intro intro-4">通过云端服务输出效果</p>
+			<p class="screen-4__item screen-4__item-1">实战课程集成开发环境</p>
+			<p class="screen-4__item screen-4__item-2">内置终端命令行</p>
+			<p class="screen-4__item screen-4__item-3">编译你的应用程序</p>
+			<p class="screen-4__item screen-4__item-4">通过云端服务输出效果</p>
 		</div>
-	</hgroup>
+	</div>
 </section>
 <!-- /screen 4 -->
 <!-- screen 5 -->
-<section id="screen-5" class="screen screen-5">
-	<hgroup class="bg-img"></hgroup>
-	<hgroup class="cloud">
-		<h1 class="title">云端学习可以这样简单</h1>
-		<div class="separator"></div>
-		<p class="desc">看视频，敲代码，一气呵成。结合慕课网为你提供的云端学习工具，所见即所得。从此学习不一样</p>
-	</hgroup>
+<section id="screen-5" class="screen-5">
+	<div class="screen-5__background"></div>
+	<div class="screen-5__wrap">
+		<h1 class="screen-5__heading">云端学习可以这样简单</h1>
+		<div class="screen-5__separator"></div>
+		<h3 class="screen-5__subheading">看视频，敲代码，一气呵成。结合慕课网为你提供的云端学习工具，所见即所得。从此学习不一样</h3>
+	</div>
 </section>
 <!-- /screen 5 -->
 <!-- other -->
 <section class="other">
-	<a class="continue" href="#screen-1">继续了解学习体验</a>
+	<a class="other__link" href="#screen-1">继续了解学习体验</a>
 </section>
 <!-- /other -->
 <footer class="footer">
 	<!-- footer navigation -->
-	<nav class="nav nav-ft">
-		<a href="">网站首页</a>
-		<a href="">人才招聘</a>
-		<a href="">联系我们</a>
-		<a href="">高校联盟</a>
-		<a href="">关于我们</a>
-		<a href="">讲师招募</a>
-		<a href="">意见反馈</a>
-		<a href="">友情链接</a>
-		<a class="cprt" href="">Copyright © 2015 imooc.com All Rights Reserved | 京ICP备 13046642号-2</a>
+	<nav class="footer__nav">
+		<a class="footer__nav__item" href="">网站首页</a>
+		<a class="footer__nav__item" href="">人才招聘</a>
+		<a class="footer__nav__item" href="">联系我们</a>
+		<a class="footer__nav__item" href="">高校联盟</a>
+		<a class="footer__nav__item" href="">关于我们</a>
+		<a class="footer__nav__item" href="">讲师招募</a>
+		<a class="footer__nav__item" href="">意见反馈</a>
+		<a class="footer__nav__item" href="">友情链接</a>
+		<a class="footer__nav__item footer__nav__item-copyright" href="">Copyright © 2015 imooc.com All Rights Reserved | 京ICP备 13046642号-2</a>
 	</nav>
 	<!-- /footer navigation -->
 </footer>
 <!-- navigation on the right -->
 <nav class="outline">
-	<a href="#screen-1">实</a>
-	<a href="#screen-2">商</a>
-	<a href="#screen-3">课</a>
-	<a href="#screen-4">环</a>
-	<a href="#screen-5">云</a>
+	<a class="outline__item" href="#screen-1">实</a>
+	<a class="outline__item" href="#screen-2">商</a>
+	<a class="outline__item" href="#screen-3">课</a>
+	<a class="outline__item" href="#screen-4">环</a>
+	<a class="outline__item" href="#screen-5">云</a>
 </nav>
 <!-- /navigation on the right -->
 </body>
